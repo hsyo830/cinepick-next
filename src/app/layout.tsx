@@ -9,8 +9,8 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "CinePick",
-  description: "Movie discovery platform",
+  title: "basekite",
+  description: "KBO Baseball Stadium Information Platform",
 };
 
 export default function RootLayout({
