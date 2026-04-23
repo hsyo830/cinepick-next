@@ -133,6 +133,8 @@
 
 /* CSS 변수를 Tailwind 유틸리티 이름으로 연결 */
 @theme inline {
+  --font-sans: var(--font-pretendard);
+
   /* 배경 */
   --color-background: var(--color-bg);
   --color-surface: var(--color-surface);

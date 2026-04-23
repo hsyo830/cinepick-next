@@ -1,12 +1,8 @@
 import "./globals.css";
 
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+import { pretendard } from "../styles/fonts";
 
 export const metadata: Metadata = {
   title: "basekite",
@@ -19,8 +15,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko" className={`${geistSans.variable} h-full antialiased`}>
-      <body className="flex min-h-full flex-col">{children}</body>
+    <html lang="ko" className={`${pretendard.variable} h-full`} suppressHydrationWarning>
+      <body className="flex min-h-full flex-col font-sans antialiased">{children}</body>
     </html>
   );
 }
