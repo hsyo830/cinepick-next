@@ -1,17 +1,129 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* 배경 레이어 */
+  --color-bg: #f6f8fb; /* 페이지 전체 배경 */
+  --color-surface: #ffffff; /* 카드, 입력창, 탭 기본 배경 */
+  --color-surface-2: #edf3f8; /* 중첩 카드, 구분 영역, 옅은 hover 배경 */
+
+  /* 사이드 / 헤더 계열 */
+  --color-sidebar: #071a2f; /* 좌측 사이드바 메인 배경 */
+  --color-sidebar-surface: #0d2743; /* 사이드바 내부 광고/보조 카드 */
+  --color-hero-sky: #a8cff7; /* 상단 배너 하늘색 계열 */
+
+  /* 텍스트 */
+  --color-text: #111827; /* 메인 제목 / 본문 */
+  --color-text-muted: #667085; /* 부제목, 설명 텍스트 */
+  --color-text-disabled: #a8b3c2; /* 비활성 / 흐린 텍스트 */
+  --color-text-inverse: #ffffff; /* 어두운 배경 위 텍스트 */
+
+  /* 보더 / 라인 */
+  --color-border: #dde6ef; /* 기본 카드 보더 */
+  --color-border-strong: #c8d5e3; /* 조금 더 진한 구분선 */
+
+  /* 입력창 */
+  --color-input-bg: #ffffff; /* 검색창 / 인풋 배경 */
+  --color-input-border: #d8e3ee; /* 검색창 / 인풋 보더 */
+  --color-input-placeholder: #8a94a6; /* placeholder */
+
+  /* 브랜드 */
+  --color-brand: #f36c21; /* 직관GO 로고 오렌지 */
+  --color-brand-hover: #dc5f1b; /* brand hover */
+
+  /* 주요 버튼 / 활성 상태 */
+  --color-primary: #3f8f3e; /* 길찾기, 활성 탭, 주요 CTA */
+  --color-primary-hover: #367a35; /* primary hover */
+  --color-primary-soft: #e7f3e5; /* 연한 초록 배경 배지 */
+  --color-primary-foreground: #ffffff;
+
+  /* 보조 버튼 */
+  --color-secondary: #ffffff; /* 흰색 버튼 */
+  --color-secondary-hover: #f2f5f8; /* secondary hover */
+  --color-secondary-foreground: #111827;
+
+  /* 다크 배경용 버튼(사이드바 내부 등) */
+  --color-dark-button: #13304f; /* 사이드바 내부 버튼 / 어두운 버튼 */
+  --color-dark-button-hover: #102944; /* hover */
+  --color-dark-button-foreground: #ffffff;
+
+  /* 상태 색상 */
+  --color-success: #4aa34a; /* 정상 진행 */
+  --color-success-hover: #408d40; /* hover */
+  --color-success-soft: #edf7ea; /* 연한 success 배경 */
+
+  --color-warning: #f08a22; /* 우천 지연 / 주황 강조 */
+  --color-warning-hover: #d9781d; /* hover */
+  --color-warning-soft: #fff1e4; /* 연한 warning 배경 */
+
+  --color-danger: #ef4b4b; /* 우천 취소 */
+  --color-danger-hover: #d74242; /* hover */
+  --color-danger-soft: #ffe9e8; /* 연한 danger 배경 */
+
+  --color-info: #5f92d7; /* 날씨/정보성 아이콘 */
+  --color-info-hover: #4f7cbc; /* hover */
+  --color-info-soft: #ecf3fb; /* 연한 info 배경 */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-}
+.dark {
+  /* 배경 레이어 */
+  --color-bg: #081a2d; /* 페이지 전체 배경 */
+  --color-surface: #0d243d; /* 카드, 패널 배경 */
+  --color-surface-2: #122b46; /* 중첩 카드, 보조 섹션, hover 배경 */
 
-body {
-  background: var(--background);
-  color: var(--foreground);
+  /* 사이드 / 헤더 계열 */
+  --color-sidebar: #071a2f; /* 좌측 사이드바 배경 */
+  --color-sidebar-surface: #0d2743; /* 사이드바 내부 광고/보조 카드 */
+  --color-hero-sky: #0c2139; /* 상단 배너 어두운 하늘/배경 톤 */
+
+  /* 텍스트 */
+  --color-text: #f8fafc; /* 메인 제목 / 본문 */
+  --color-text-muted: #b6c2d3; /* 보조 텍스트 */
+  --color-text-disabled: #7f90a6; /* 비활성 텍스트 */
+  --color-text-inverse: #ffffff;
+
+  /* 보더 / 라인 */
+  --color-border: #243a56; /* 카드 보더 */
+  --color-border-strong: #314867; /* 조금 더 진한 보더 */
+
+  /* 입력창 */
+  --color-input-bg: #0b1f34; /* 검색창 / 인풋 배경 */
+  --color-input-border: #29405e; /* 검색창 보더 */
+  --color-input-placeholder: #8ea0b7; /* placeholder */
+
+  /* 브랜드 */
+  --color-brand: #f36c21; /* 로고 오렌지 */
+  --color-brand-hover: #dc5f1b; /* hover */
+
+  /* 주요 버튼 / 활성 상태 */
+  --color-primary: #43a043; /* 주요 CTA / 활성 탭 */
+  --color-primary-hover: #3a8b3a; /* primary hover */
+  --color-primary-soft: #16371c; /* 연한 초록 배경 */
+  --color-primary-foreground: #ffffff;
+
+  /* 보조 버튼 */
+  --color-secondary: #112a45; /* 어두운 보조 버튼 */
+  --color-secondary-hover: #0e2339; /* hover */
+  --color-secondary-foreground: #f8fafc;
+
+  /* 어두운 카드 안 outline/ghost 버튼 */
+  --color-dark-button: #13304f; /* outline 느낌의 짙은 버튼 */
+  --color-dark-button-hover: #102944; /* hover */
+  --color-dark-button-foreground: #ffffff;
+
+  /* 상태 색상 */
+  --color-success: #57b357; /* 정상 진행 */
+  --color-success-hover: #4a9a4a; /* hover */
+  --color-success-soft: #16371c; /* 연한 success 배경 */
+
+  --color-warning: #f08a22; /* 우천 지연 */
+  --color-warning-hover: #d9781d; /* hover */
+  --color-warning-soft: #3a2515; /* 연한 warning 배경 */
+
+  --color-danger: #ef5757; /* 우천 취소 */
+  --color-danger-hover: #d64d4d; /* hover */
+  --color-danger-soft: #3a1d22; /* 연한 danger 배경 */
+
+  --color-info: #6ea1e3; /* 날씨/정보성 아이콘 */
+  --color-info-hover: #5e8cc7; /* hover */
+  --color-info-soft: #132b42; /* 연한 info 배경 */
 }
