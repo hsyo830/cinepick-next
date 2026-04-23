@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* html에 dark 클래스 붙였을 때 dark: 변형 동작 */
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   /* 배경 레이어 */
   --color-bg: #f6f8fb; /* 페이지 전체 배경 */
@@ -126,4 +129,77 @@
   --color-info: #6ea1e3; /* 날씨/정보성 아이콘 */
   --color-info-hover: #5e8cc7; /* hover */
   --color-info-soft: #132b42; /* 연한 info 배경 */
+}
+
+/* CSS 변수를 Tailwind 유틸리티 이름으로 연결 */
+@theme inline {
+  /* 배경 */
+  --color-background: var(--color-bg);
+  --color-surface: var(--color-surface);
+  --color-surface-2: var(--color-surface-2);
+
+  /* 사이드 / 헤더 */
+  --color-sidebar: var(--color-sidebar);
+  --color-sidebar-surface: var(--color-sidebar-surface);
+  --color-hero-sky: var(--color-hero-sky);
+
+  /* 텍스트 */
+  --color-foreground: var(--color-text);
+  --color-muted: var(--color-text-muted);
+  --color-disabled: var(--color-text-disabled);
+  --color-inverse: var(--color-text-inverse);
+
+  /* 보더 */
+  --color-border: var(--color-border);
+  --color-border-strong: var(--color-border-strong);
+
+  /* 입력창 */
+  --color-input: var(--color-input-bg);
+  --color-input-border: var(--color-input-border);
+  --color-placeholder: var(--color-input-placeholder);
+
+  /* 브랜드 */
+  --color-brand: var(--color-brand);
+  --color-brand-hover: var(--color-brand-hover);
+
+  /* 버튼 */
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-primary-soft: var(--color-primary-soft);
+  --color-primary-foreground: var(--color-primary-foreground);
+
+  --color-secondary: var(--color-secondary);
+  --color-secondary-hover: var(--color-secondary-hover);
+  --color-secondary-foreground: var(--color-secondary-foreground);
+
+  --color-dark-button: var(--color-dark-button);
+  --color-dark-button-hover: var(--color-dark-button-hover);
+  --color-dark-button-foreground: var(--color-dark-button-foreground);
+
+  /* 상태 */
+  --color-success: var(--color-success);
+  --color-success-hover: var(--color-success-hover);
+  --color-success-soft: var(--color-success-soft);
+
+  --color-warning: var(--color-warning);
+  --color-warning-hover: var(--color-warning-hover);
+  --color-warning-soft: var(--color-warning-soft);
+
+  --color-danger: var(--color-danger);
+  --color-danger-hover: var(--color-danger-hover);
+  --color-danger-soft: var(--color-danger-soft);
+
+  --color-info: var(--color-info);
+  --color-info-hover: var(--color-info-hover);
+  --color-info-soft: var(--color-info-soft);
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
