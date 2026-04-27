@@ -18,6 +18,20 @@ const NavItem = ({ href, label, icon: Icon, variant }: NavItemProps) => {
 
   const isActive = href === "/" ? pathname === "/" : pathname.startsWith(href);
 
+  if (variant === "bottom") {
+    return (
+      <Link
+        href={href}
+        className={`md:0.5 m-0.5 inline-flex w-12 flex-col items-center justify-center gap-0.5 md:w-15 md:gap-0.5`}
+      >
+        <Icon size={30} className={`text-inverse ${isActive ? "text-primary" : "text-muted"}`} />
+        <span className={`text-[11px] md:text-[13px] ${isActive ? "text-primary" : "text-muted"}`}>
+          {label}
+        </span>
+      </Link>
+    );
+  }
+
   return (
     <Link
       href={href}
