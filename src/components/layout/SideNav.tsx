@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-import Logo from "../common/Logo";
+import Logo from "@/src/components/common/Logo";
+import { MAIN_NAV_ITEMS } from "@/src/constants/navigation";
 
 // 좌측고정바
 const SideNav = () => {
@@ -9,30 +10,20 @@ const SideNav = () => {
       <Logo />
       <div className="text-inverse text-xl font-semibold">야구 직관 도우미</div>
       <nav aria-label="주요 메뉴">
-        <ul className="text-inverse mt-7.75 text-base">
-          <li>
-            <Link href="/">홈</Link>
-          </li>
-
-          <li>
-            <Link href="/games">오늘경기</Link>
-          </li>
-
-          <li>
-            <Link href="/stadiums">구장정보</Link>
-          </li>
-
-          <li>
-            <Link href="/food">음식부스</Link>
-          </li>
-
-          <li>
-            <Link href="/checklist">준비물</Link>
-          </li>
-
-          <li>
-            <Link href="/mypage">마이페이지</Link>
-          </li>
+        <ul className="text-inverse mt-7.75 flex flex-col gap-2.5 text-base">
+          {MAIN_NAV_ITEMS.map(({ label, href, icon: Icon }) => {
+            return (
+              <li key={href}>
+                <Link
+                  href={href}
+                  className="hover:bg-primary-hover flex items-center gap-3 rounded-xl p-3"
+                >
+                  <Icon size={26} className="text-inverse" />
+                  <span className="text-inverse text-xl">{label}</span>
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </nav>
     </aside>
