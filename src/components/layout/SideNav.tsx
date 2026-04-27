@@ -1,17 +1,15 @@
-import Image from "next/image";
 import Link from "next/link";
 
-import MainLogo from "@/public/image/jiguango_logo.svg";
+import Logo from "../common/Logo";
 
 // 좌측고정바
 const SideNav = () => {
   return (
     <aside className="bg-sidebar w-64 px-5.5 py-10">
-      <Image src={MainLogo} alt="main logo" fill />
-      <div className="h-[39px] w-[134px] border border-solid border-red-500">로고</div>
-      <div className="text-inverse mt-4.5 text-sm">야구 직관 도우미</div>
+      <Logo />
+      <div className="text-inverse text-xl font-semibold">야구 직관 도우미</div>
       <nav aria-label="주요 메뉴">
-        <ul className="text-inverse text-base">
+        <ul className="text-inverse mt-7.75 text-base">
           <li>
             <Link href="/">홈</Link>
           </li>

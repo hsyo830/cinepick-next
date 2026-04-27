@@ -3,6 +3,15 @@
 /* html에 dark 클래스 붙였을 때 dark: 변형 동작 */
 @custom-variant dark (&:where(.dark, .dark *));
 
+@font-face {
+  font-family: "VitroCore";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_core.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* 배경 레이어 */
   --color-bg: #f6f8fb; /* 페이지 전체 배경 */
@@ -134,6 +143,7 @@
 /* CSS 변수를 Tailwind 유틸리티 이름으로 연결 */
 @theme inline {
   --font-sans: var(--font-pretendard);
+  --font-vitro: "VitroCore", sans-serif;
 
   /* 배경 */
   --color-background: var(--color-bg);
