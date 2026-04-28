@@ -1,10 +1,14 @@
 import Link from "next/link";
 
-export default function Logo() {
+type LogoProps = {
+  mobileHeader?: boolean;
+};
+
+export default function Logo({ mobileHeader }: LogoProps) {
   return (
-    <div className="font-vitro text-[40px]">
+    <div className={`font-vitro ${mobileHeader ? "text-[20px] md:text-[35px]" : "text-[40px]"}`}>
       <Link href="/">
-        <span className="text-inverse">직관</span>
+        <span className={` ${mobileHeader ?? "text-inverse"}`}>직관</span>
         <span className="text-brand">GO</span>
       </Link>
     </div>
