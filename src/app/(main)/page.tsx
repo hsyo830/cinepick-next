@@ -1,6 +1,7 @@
 import PageHero from "@/src/components/common/PageHero";
 import SectionCard from "@/src/components/common/SectionCard";
 import GameCard from "@/src/components/main/today-game/GameCard";
+import TodayGameSection from "@/src/components/main/today-game/TodayGameSection";
 
 export default function MainPage() {
   return (
@@ -11,7 +12,7 @@ export default function MainPage() {
       />
       <div className="md:px-8.25">
         <SectionCard>
-          <GameCard />
+          <TodayGameSection />
         </SectionCard>
       </div>
     </div>

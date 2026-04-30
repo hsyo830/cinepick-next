@@ -5,7 +5,7 @@ import LotteLogo from "@/public/image/team-logo/lotte-logo.svg";
 
 const GameCard = () => {
   return (
-    <article className="bg-surface border-border flex flex-col items-center gap-2 rounded-xl border px-6 py-5">
+    <article className="bg-surface border-border flex flex-col items-center rounded-xl border px-6 py-5">
       <div className="flex items-center gap-2 text-sm leading-none">
         <span>KBO</span>
         <span className="bg-disabled h-3 w-px" />
