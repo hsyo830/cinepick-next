@@ -1,11 +1,15 @@
 import GameCard from "./GameCard";
+import SectionHeader from "./SectionHeader";
 
 const TodayGameSection = () => {
   return (
-    <section className="grid w-full grid-cols-3 gap-5">
-      <GameCard />
-      <GameCard />
-      <GameCard />
+    <section className="w-full">
+      <SectionHeader />
+      <div className="grid w-full grid-cols-3 gap-5">
+        <GameCard />
+        <GameCard />
+        <GameCard />
+      </div>
     </section>
   );
 };
