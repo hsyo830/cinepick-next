@@ -3,6 +3,8 @@ import Image from "next/image";
 import KiaLogo from "@/public/image/team-logo/kia-logo.svg";
 import LotteLogo from "@/public/image/team-logo/lotte-logo.svg";
 
+import GameStatusBadge from "../../common/GameStatusBadge";
+
 const GameCard = () => {
   return (
     <article className="bg-surface border-border flex flex-col items-center rounded-xl border px-6 py-5">
@@ -27,7 +29,7 @@ const GameCard = () => {
       <div className="text-sm">광주챔피언즈필드</div>
       <div className="flex w-full items-center justify-between">
         <div className="text-xl font-semibold">24°C</div>
-        <div>진행 뱃지</div>
+        <GameStatusBadge status="NORMAL" />
       </div>
     </article>
   );
