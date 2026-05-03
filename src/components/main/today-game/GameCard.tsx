@@ -16,13 +16,13 @@ const GameCard = () => {
       <div className="flex items-center gap-2">
         <div className="flex flex-col items-center">
           <div className="text-sm font-medium">롯데 자이언츠</div>
-          <Image src={LotteLogo} alt="롯데자이언츠 로고" width={88} height={72} />
+          <Image src={LotteLogo} alt="롯데자이언츠 로고" className="h-auto w-21" />
         </div>
         <div className="text-xl font-medium">VS</div>
         <div className="flex flex-col items-center">
           <div className="text-sm font-medium">기아 타이거즈</div>
           <div>
-            <Image src={KiaLogo} alt="기아타이거즈 로고" width={88} height={72} />
+            <Image src={KiaLogo} alt="기아타이거즈 로고" className="h-auto w-21" />
           </div>
         </div>
       </div>
