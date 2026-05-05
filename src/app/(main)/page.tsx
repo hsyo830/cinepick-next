@@ -17,6 +17,11 @@ export default function MainPage() {
         <SectionCard>
           <StadiumFoodSection />
         </SectionCard>
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
+          <SectionCard className="md:col-span-2 xl:col-span-1">구장 안내</SectionCard>
+          <SectionCard>야구장 날씨</SectionCard>
+          <SectionCard>직관 준비물 체크</SectionCard>
+        </div>
       </div>
     </div>
   );
