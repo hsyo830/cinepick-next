@@ -5,7 +5,8 @@ const StadiumInfoSection = () => {
   return (
     <div>
       <SectionHeader />
-      <section className="flex w-full gap-2 p-1">
+      <section className="flex w-full items-center gap-2 p-1">
+        <StadiumInfoCard />
         <StadiumInfoCard />
       </section>
     </div>
