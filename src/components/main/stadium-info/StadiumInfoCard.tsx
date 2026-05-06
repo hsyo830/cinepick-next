@@ -10,7 +10,7 @@ const StadiumInfoCard = () => {
   return (
     <SectionCard className="flex h-45 w-full gap-5">
       <div className="h-full w-60 rounded-lg bg-blue-500">이미지</div>
-      <div className="flex flex-col justify-between">
+      <div className="flex w-full flex-col justify-between">
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-2">
             <p className="text-foreground text-[15px] font-semibold md:text-lg lg:text-xl">
@@ -32,9 +32,9 @@ const StadiumInfoCard = () => {
             </div>
           </div>
         </div>
-        <div className="flex gap-2">
-          <Button className="w-45">구장 정보 더 보기 &gt;</Button>
-          <Button className="w-30" variant="inline">
+        <div className="flex w-full gap-2">
+          <Button className="flex-2">구장 정보 더 보기 &gt;</Button>
+          <Button className="flex-1 px-3.5" variant="inline">
             길찾기 &gt;
           </Button>
         </div>
