@@ -4,34 +4,35 @@ import KiaLogo from "@/public/image/team-logo/kia-logo.svg";
 import LotteLogo from "@/public/image/team-logo/lotte-logo.svg";
 
 import GameStatusBadge from "../../common/GameStatusBadge";
+import SectionCard from "../../common/SectionCard";
 
 const GameCard = () => {
   return (
-    <article className="bg-surface border-border flex flex-col items-center rounded-xl border px-6 py-5">
-      <div className="flex items-center gap-2 text-sm leading-none">
+    <SectionCard className="flex flex-col items-center justify-between gap-2">
+      <div className="flex items-center gap-1 text-xs leading-none font-semibold md:gap-2 md:text-sm">
         <span>KBO</span>
         <span className="bg-disabled h-3 w-px" />
         <span>18:30</span>
       </div>
-      <div className="flex items-center gap-2">
-        <div className="flex flex-col items-center">
-          <div className="text-sm font-medium">롯데 자이언츠</div>
-          <Image src={LotteLogo} alt="롯데자이언츠 로고" className="h-auto w-21" />
+      <div className="flex items-center gap-1 md:gap-5">
+        <div className="flex flex-col items-center gap-1">
+          <div className="text-muted text-xs font-bold md:text-sm">롯데</div>
+          <Image src={LotteLogo} alt="롯데자이언츠 로고" className="h-auto w-23 md:w-21" />
         </div>
-        <div className="text-xl font-medium">VS</div>
-        <div className="flex flex-col items-center">
-          <div className="text-sm font-medium">기아 타이거즈</div>
+        <div className="text-sm font-medium md:text-xl">VS</div>
+        <div className="flex flex-col items-center gap-1">
+          <div className="text-muted text-xs font-bold md:text-sm">기아</div>
           <div>
-            <Image src={KiaLogo} alt="기아타이거즈 로고" className="h-auto w-21" />
+            <Image src={KiaLogo} alt="기아타이거즈 로고" className="h-auto w-23 md:w-21" />
           </div>
         </div>
       </div>
-      <div className="text-sm">광주챔피언즈필드</div>
-      <div className="flex w-full items-center justify-between">
-        <div className="text-xl font-semibold">24°C</div>
+      <div className="text-muted text-xs font-medium md:text-sm">광주챔피언즈필드</div>
+      <div className="flex w-full flex-col items-center justify-between gap-1 md:flex-row">
+        <div className="text-sm font-semibold md:text-xl">24°C</div>
         <GameStatusBadge status="NORMAL" />
       </div>
-    </article>
+    </SectionCard>
   );
 };
 

@@ -5,7 +5,7 @@ type SectionCardProps = {
 
 const SectionCard = ({ children, className = "" }: SectionCardProps) => {
   return (
-    <section className={`border-border bg-surface rounded-xl border p-4 ${className}`}>
+    <section className={`border-border bg-surface rounded-xl border p-3 md:p-4 ${className}`}>
       {children}
     </section>
   );
