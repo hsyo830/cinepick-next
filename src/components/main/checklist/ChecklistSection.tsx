@@ -1,0 +1,46 @@
+import Button from "../../common/Button";
+import ChecklistIcon from "../../icons/ChecklistIcon";
+import GameStatusCheckIcon from "../../icons/GameStatusCheckIcon";
+import SectionHeader from "./SectionHeader";
+
+const ChecklistSection = () => {
+  return (
+    <div>
+      <SectionHeader />
+      <section className="flex flex-col gap-3">
+        <div className="text-muted text-sm">
+          <div>직관 준비물 다 챙기셨나요?</div>
+          <div>체크하고 빠뜨린 것 없이 즐거운 직관을 준비하세요!</div>
+        </div>
+        <div className="bg-surface-2 flex w-60 flex-col gap-4 rounded-sm p-3">
+          <div>
+            <h3 className="pb-0.5 text-base font-medium">오늘 추천 준비물</h3>
+            <div className="text-muted flex gap-1 text-[13px]">
+              <GameStatusCheckIcon filled className="text-primary" />
+              <span>야간 경기라 얇은 외투를 챙겨주세요.</span>
+            </div>
+            <div className="text-muted flex gap-1 text-[13px]">
+              <GameStatusCheckIcon filled className="text-primary" />
+              <span>우천 가능성 20%로 우비를 추천해요.</span>
+            </div>
+          </div>
+          <div className="flex flex-col gap-1">
+            <div className="flex items-center justify-between">
+              <h3 className="text-base font-medium">준비 완료</h3>
+              <div className="text-sm">
+                <span className="text-primary">3</span>
+                <span>/7 &gt;</span>
+              </div>
+            </div>
+            <div className="bg-border-strong h-2 w-full overflow-hidden rounded-full">
+              <div className="bg-primary h-full w-[45%]"></div>
+            </div>
+          </div>
+        </div>
+        <Button className="w-33">체크하러 가기 &gt;</Button>
+      </section>
+    </div>
+  );
+};
+
+export default ChecklistSection;

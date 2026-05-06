@@ -5,6 +5,7 @@ interface GameStatusCheckIconProps extends SVGProps<SVGSVGElement> {
   color?: string;
   strokeWidth?: number;
   title?: string;
+  filled?: boolean;
 }
 
 export default function GameStatusCheckIcon({
@@ -13,6 +14,7 @@ export default function GameStatusCheckIcon({
   strokeWidth = 2.5,
   title,
   className,
+  filled,
   ...props
 }: GameStatusCheckIconProps) {
   return (
@@ -30,11 +32,18 @@ export default function GameStatusCheckIcon({
     >
       {title && <title>{title}</title>}
 
-      <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth={strokeWidth} />
+      <circle
+        cx="12"
+        cy="12"
+        r="9"
+        fill={filled ? "currentColor" : "none"}
+        stroke="currentColor"
+        strokeWidth={strokeWidth}
+      />
 
       <path
         d="M8 12.3L10.6 14.9L16.2 9.3"
-        stroke="currentColor"
+        stroke={filled ? "white" : "currentColor"}
         strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
