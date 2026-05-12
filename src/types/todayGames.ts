@@ -1,5 +1,7 @@
 import type { KboTeamCode } from "@/src/constants/kboTeams";
 
+import { KboWeatherCode } from "../constants/kboWeather";
+
 export type KboGame = {
   stadium: string;
   stadiumFullName: string;
@@ -10,11 +12,11 @@ export type KboGame = {
   gameTime: string;
   gameSc: number;
   cancelSc: number;
-  icon: string;
+  icon: KboWeatherCode;
   iconName: string;
   temp: number;
   rain: number;
-  gameIcon: string;
+  gameIcon: KboWeatherCode;
   gameIconName: string;
   gameTemp: number;
   gameRain: number;

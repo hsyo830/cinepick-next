@@ -35,7 +35,7 @@ export const todayGames: KboTodayGamesResponse = {
       awayName: "NC 다이노스",
       gameTime: "18:30:00",
       gameSc: 0,
-      cancelSc: 0,
+      cancelSc: 1,
       icon: "3",
       iconName: "구름많음",
       temp: 19.0,
