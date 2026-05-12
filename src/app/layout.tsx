@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import { pretendard } from "../styles/fonts";
 
 export const metadata: Metadata = {
-  title: "basekite",
+  title: "jikgwango",
   description: "KBO Baseball Stadium Information Platform",
 };
 

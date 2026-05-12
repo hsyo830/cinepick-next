@@ -31,9 +31,9 @@ export const MAIN_NAV_ITEMS = [
     href: "/checklist",
     icon: ChecklistIcon,
   },
-  {
+  /* {
     label: "마이페이지",
     href: "/mypage",
     icon: UserIcon,
-  },
+  }, */
 ] as const;
