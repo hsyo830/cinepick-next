@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import { pretendard } from "../styles/fonts";
 
 export const metadata: Metadata = {
-  title: "jikgwango",
+  title: "직관GO | 야구 직관 정보를 한번에!",
   description: "KBO Baseball Stadium Information Platform",
 };
 
