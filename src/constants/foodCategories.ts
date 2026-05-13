@@ -9,4 +9,5 @@ export const FOOD_CATEGORIES = [
   "카페",
   "주류",
   "편의점",
+  "식당",
 ];
