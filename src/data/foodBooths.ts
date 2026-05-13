@@ -1,4 +1,6 @@
-export const foodBooths = [
+import { FoodBooth } from "../types/foodBooth";
+
+export const foodBooths: FoodBooth[] = [
   // 잠실야구장
   {
     id: "jamsil-outfield-3ru-01",
@@ -1178,7 +1180,7 @@ export const foodBooths = [
     locationCategory: "외야",
     location: "내부 외야 2층",
     name: "루프탑테이블석",
-    menuCategory: "미정",
+    menuCategory: "식당",
   },
   {
     id: "daegu-outside-2f-01",
@@ -2036,7 +2038,7 @@ export const foodBooths = [
     locationCategory: "중앙-1루",
     location: "중앙-1루 1층",
     name: "PICK ME 31",
-    menuCategory: "디저트",
+    menuCategory: "간식",
   },
   {
     id: "incheon-center-1ru-1f-06",
@@ -2137,7 +2139,7 @@ export const foodBooths = [
     locationCategory: "외야",
     location: "외야 2층",
     name: "크리스피도넛",
-    menuCategory: "디저트",
+    menuCategory: "간식",
   },
   {
     id: "incheon-outfield-2f-03",
@@ -2320,7 +2322,7 @@ export const foodBooths = [
     locationCategory: "내부 3루",
     location: "내부 3루 2층",
     name: "마왕족발",
-    menuCategory: "족발",
+    menuCategory: "한식",
   },
   {
     id: "gocheok-3ru-2f-04",
@@ -2338,7 +2340,7 @@ export const foodBooths = [
     locationCategory: "내부 3루",
     location: "내부 3루 2층",
     name: "스테프핫도그",
-    menuCategory: "핫도그",
+    menuCategory: "간식",
   },
   {
     id: "gocheok-3ru-2f-06",
@@ -2347,7 +2349,7 @@ export const foodBooths = [
     locationCategory: "내부 3루",
     location: "내부 3루 2층",
     name: "스트릿츄러스",
-    menuCategory: "디저트",
+    menuCategory: "간식",
   },
   {
     id: "gocheok-3ru-2f-07",
@@ -2374,7 +2376,7 @@ export const foodBooths = [
     locationCategory: "내부 3루",
     location: "내부 3루 2층",
     name: "초장집",
-    menuCategory: "해산물",
+    menuCategory: "식당",
   },
 
   {
@@ -2411,7 +2413,7 @@ export const foodBooths = [
     locationCategory: "내야",
     location: "내야 4층",
     name: "브뤼셀프라이",
-    menuCategory: "감자튀김",
+    menuCategory: "간식",
   },
   {
     id: "gocheok-naeya-4f-05",
@@ -2438,7 +2440,7 @@ export const foodBooths = [
     locationCategory: "내야",
     location: "내야 4층",
     name: "카츠마마",
-    menuCategory: "일식",
+    menuCategory: "식당",
   },
   {
     id: "gocheok-naeya-4f-08",
@@ -2475,7 +2477,7 @@ export const foodBooths = [
     locationCategory: "내부 1루",
     location: "내부 1루 2층",
     name: "꼬치닭",
-    menuCategory: "꼬치",
+    menuCategory: "간식",
   },
   {
     id: "gocheok-1ru-2f-04",
@@ -2511,7 +2513,7 @@ export const foodBooths = [
     locationCategory: "내부 1루",
     location: "내부 1루 2층",
     name: "명랑핫도그",
-    menuCategory: "핫도그",
+    menuCategory: "간식",
   },
   {
     id: "gocheok-1ru-2f-08",
@@ -2520,7 +2522,7 @@ export const foodBooths = [
     locationCategory: "내부 1루",
     location: "내부 1루 2층",
     name: "쉬림프쉐프",
-    menuCategory: "새우",
+    menuCategory: "간식",
   },
   {
     id: "gocheok-1ru-2f-09",
@@ -2593,7 +2595,7 @@ export const foodBooths = [
     locationCategory: "외야",
     location: "외야 3~4층",
     name: "브뤼셀프라이",
-    menuCategory: "감자튀김",
+    menuCategory: "간식",
   },
   {
     id: "gocheok-oeya-3-4f-06",
@@ -2602,7 +2604,7 @@ export const foodBooths = [
     locationCategory: "외야",
     location: "외야 3~4층",
     name: "스트릿츄러스",
-    menuCategory: "디저트",
+    menuCategory: "간식",
   },
   {
     id: "gocheok-oeya-3-4f-07",
@@ -2665,7 +2667,7 @@ export const foodBooths = [
     locationCategory: "외야",
     location: "외야 3~4층",
     name: "쉬림프쉐프",
-    menuCategory: "새우",
+    menuCategory: "간식",
   },
   {
     id: "gocheok-oeya-3-4f-14",
@@ -2685,7 +2687,7 @@ export const foodBooths = [
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
     name: "메가닭꼬치",
-    menuCategory: "꼬치",
+    menuCategory: "간식",
   },
   {
     id: "suwon-central-3ru-2f-02",
@@ -2694,7 +2696,7 @@ export const foodBooths = [
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
     name: "보영만두",
-    menuCategory: "만두",
+    menuCategory: "분식",
   },
   {
     id: "suwon-central-3ru-2f-03",
@@ -2703,7 +2705,7 @@ export const foodBooths = [
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
     name: "본수원갈비",
-    menuCategory: "갈비",
+    menuCategory: "한식",
   },
   {
     id: "suwon-central-3ru-2f-04",
@@ -2712,7 +2714,7 @@ export const foodBooths = [
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
     name: "카츠마마",
-    menuCategory: "일식",
+    menuCategory: "식당",
   },
   {
     id: "suwon-central-3ru-2f-05",
@@ -2721,7 +2723,7 @@ export const foodBooths = [
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
     name: "요아정",
-    menuCategory: "디저트",
+    menuCategory: "간식",
   },
   {
     id: "suwon-central-3ru-2f-06",
@@ -2730,7 +2732,7 @@ export const foodBooths = [
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
     name: "팝스마일 팝콘",
-    menuCategory: "팝콘",
+    menuCategory: "간식",
   },
   {
     id: "suwon-central-3ru-2f-07",
@@ -2776,7 +2778,7 @@ export const foodBooths = [
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
     name: "브뤼셀프라이",
-    menuCategory: "감자튀김",
+    menuCategory: "간식",
   },
   {
     id: "suwon-central-1ru-2f-04",
@@ -2785,7 +2787,7 @@ export const foodBooths = [
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
     name: "츄러스",
-    menuCategory: "디저트",
+    menuCategory: "간식",
   },
   {
     id: "suwon-central-1ru-2f-05",
@@ -2803,7 +2805,7 @@ export const foodBooths = [
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
     name: "오늘의초밥",
-    menuCategory: "초밥",
+    menuCategory: "식당",
   },
   {
     id: "suwon-central-1ru-2f-07",
@@ -2812,7 +2814,7 @@ export const foodBooths = [
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
     name: "완미족발",
-    menuCategory: "족발",
+    menuCategory: "한식",
   },
   {
     id: "suwon-central-1ru-2f-08",
@@ -2821,7 +2823,7 @@ export const foodBooths = [
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
     name: "윅스터",
-    menuCategory: "양식",
+    menuCategory: "식당",
   },
   {
     id: "suwon-central-1ru-2f-09",
@@ -2830,7 +2832,7 @@ export const foodBooths = [
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
     name: "토리메로",
-    menuCategory: "일식",
+    menuCategory: "식당",
   },
 
   {
@@ -2867,7 +2869,7 @@ export const foodBooths = [
     locationCategory: "5층",
     location: "5층",
     name: "브뤼셀프라이",
-    menuCategory: "감자튀김",
+    menuCategory: "간식",
   },
   {
     id: "suwon-5f-04",
@@ -2876,7 +2878,7 @@ export const foodBooths = [
     locationCategory: "5층",
     location: "5층",
     name: "양꼬치, 샤라다",
-    menuCategory: "꼬치",
+    menuCategory: "간식",
   },
   {
     id: "suwon-camping-5f-01",
@@ -2914,7 +2916,7 @@ export const foodBooths = [
     locationCategory: "1루",
     location: "1루 2층",
     name: "끼부리또",
-    menuCategory: "부리또",
+    menuCategory: "식당",
   },
   {
     id: "suwon-1ru-2f-02",
@@ -2923,7 +2925,7 @@ export const foodBooths = [
     locationCategory: "1루",
     location: "1루 2층",
     name: "뉴욕양꼬치",
-    menuCategory: "꼬치",
+    menuCategory: "간식",
   },
   {
     id: "suwon-1ru-2f-03",
@@ -2932,7 +2934,7 @@ export const foodBooths = [
     locationCategory: "1루",
     location: "1루 2층",
     name: "또리펍",
-    menuCategory: "주점",
+    menuCategory: "주류",
   },
   {
     id: "suwon-naeya-1ru-2f-01",
@@ -2941,7 +2943,7 @@ export const foodBooths = [
     locationCategory: "내야 1루",
     location: "1루 2층",
     name: "또리펍",
-    menuCategory: "주점",
+    menuCategory: "주류",
   },
   {
     id: "suwon-1ru-2f-04",
@@ -2986,7 +2988,7 @@ export const foodBooths = [
     locationCategory: "1루",
     location: "1루 2층",
     name: "이대로 통삼겹",
-    menuCategory: "삼겹살",
+    menuCategory: "한식",
   },
   {
     id: "suwon-1ru-2f-08",
@@ -3014,7 +3016,7 @@ export const foodBooths = [
     locationCategory: "3루",
     location: "3루 2층",
     name: "또리펍",
-    menuCategory: "주점",
+    menuCategory: "주류",
   },
   {
     id: "suwon-naeya-3ru-2f-01",
@@ -3023,7 +3025,7 @@ export const foodBooths = [
     locationCategory: "내야 3루",
     location: "3루 2층",
     name: "또리펍",
-    menuCategory: "주점",
+    menuCategory: "주류",
   },
   {
     id: "suwon-3ru-2f-03",
@@ -3032,7 +3034,7 @@ export const foodBooths = [
     locationCategory: "3루",
     location: "3루 2층",
     name: "명랑핫도그",
-    menuCategory: "핫도그",
+    menuCategory: "간식",
   },
   {
     id: "suwon-3ru-2f-04",
@@ -3050,7 +3052,7 @@ export const foodBooths = [
     locationCategory: "3루",
     location: "3루 2층",
     name: "샐러리아",
-    menuCategory: "샐러드",
+    menuCategory: "식당",
   },
   {
     id: "suwon-3ru-2f-06",
@@ -3059,7 +3061,7 @@ export const foodBooths = [
     locationCategory: "3루",
     location: "3루 2층",
     name: "샤오마라",
-    menuCategory: "마라",
+    menuCategory: "식당",
   },
   {
     id: "suwon-3ru-2f-07",
@@ -3077,7 +3079,7 @@ export const foodBooths = [
     locationCategory: "3루",
     location: "3루 2층",
     name: "쉬림프쉐프",
-    menuCategory: "새우",
+    menuCategory: "간식",
   },
   {
     id: "suwon-3ru-2f-09",
@@ -3086,7 +3088,7 @@ export const foodBooths = [
     locationCategory: "3루",
     location: "3루 2층",
     name: "작은동경",
-    menuCategory: "일식",
+    menuCategory: "식당",
   },
 
   // 창원 NC파크
@@ -3115,7 +3117,7 @@ export const foodBooths = [
     locationCategory: "3루",
     location: "3루 1층",
     name: "북촌손만두",
-    menuCategory: "만두",
+    menuCategory: "분식",
   },
   {
     id: "changwon-3ru-1f-04",
@@ -3151,7 +3153,7 @@ export const foodBooths = [
     locationCategory: "3루",
     location: "3루 1층",
     name: "스테이션",
-    menuCategory: "양식",
+    menuCategory: "식당",
   },
   {
     id: "changwon-3ru-1f-08",
@@ -3160,7 +3162,7 @@ export const foodBooths = [
     locationCategory: "3루",
     location: "3루 1층",
     name: "코아양과",
-    menuCategory: "디저트",
+    menuCategory: "간식",
   },
   {
     id: "changwon-3ru-1f-09",
@@ -3252,7 +3254,7 @@ export const foodBooths = [
     locationCategory: "2층",
     location: "2층",
     name: "버터구이오징어",
-    menuCategory: "오징어",
+    menuCategory: "간식",
   },
 
   {
@@ -3280,7 +3282,7 @@ export const foodBooths = [
     locationCategory: "외야",
     location: "외야",
     name: "브뤼셀프라이",
-    menuCategory: "감자튀김",
+    menuCategory: "간식",
   },
   {
     id: "changwon-oeya-04",
@@ -3289,7 +3291,7 @@ export const foodBooths = [
     locationCategory: "외야",
     location: "외야",
     name: "상하이마라꼬치",
-    menuCategory: "꼬치",
+    menuCategory: "간식",
   },
   {
     id: "changwon-oeya-05",
@@ -3307,7 +3309,7 @@ export const foodBooths = [
     locationCategory: "외야",
     location: "외야",
     name: "수내닭꼬치",
-    menuCategory: "꼬치",
+    menuCategory: "간식",
   },
   {
     id: "changwon-oeya-07",
@@ -3316,7 +3318,7 @@ export const foodBooths = [
     locationCategory: "외야",
     location: "외야",
     name: "요거트월드",
-    menuCategory: "디저트",
+    menuCategory: "간식",
   },
 
   {
@@ -3326,7 +3328,7 @@ export const foodBooths = [
     locationCategory: "1루",
     location: "1루 1층",
     name: "구슬아이스크림",
-    menuCategory: "아이스크림",
+    menuCategory: "간식",
   },
   {
     id: "changwon-1ru-1f-02",
@@ -3353,7 +3355,7 @@ export const foodBooths = [
     locationCategory: "1루",
     location: "1루 1층",
     name: "버터구이오징어",
-    menuCategory: "오징어",
+    menuCategory: "간식",
   },
   {
     id: "changwon-1ru-1f-05",
@@ -3362,7 +3364,7 @@ export const foodBooths = [
     locationCategory: "1루",
     location: "1루 1층",
     name: "빙동댕",
-    menuCategory: "디저트",
+    menuCategory: "간식",
   },
   {
     id: "changwon-1ru-1f-06",
@@ -3398,7 +3400,7 @@ export const foodBooths = [
     locationCategory: "1루",
     location: "1루 1층",
     name: "소르베",
-    menuCategory: "디저트",
+    menuCategory: "간식",
   },
   {
     id: "changwon-1ru-1f-10",
@@ -3425,6 +3427,6 @@ export const foodBooths = [
     locationCategory: "1루",
     location: "1루 1층",
     name: "HABANERO",
-    menuCategory: "양식",
+    menuCategory: "식당",
   },
 ];
