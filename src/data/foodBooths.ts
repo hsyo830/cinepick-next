@@ -607,7 +607,7 @@ export const foodBooths = [
   // 부산 사직야구장
   {
     id: "sajik-1ru-2f-124-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 1루",
     location: "1루측 2층 124 GATE",
@@ -616,7 +616,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-3ru-2f-324-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 3루",
     location: "3루측 2층 324 GATE",
@@ -625,7 +625,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-1ru-2f-125-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 1루",
     location: "1루측 2층 125 GATE",
@@ -634,7 +634,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-center-4f-043-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "중앙",
     location: "중앙 4층(중앙상단석) 043 GATE",
@@ -644,7 +644,7 @@ export const foodBooths = [
 
   {
     id: "sajik-1ru-3f-131-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 1루",
     location: "1루측 3층 131 GATE",
@@ -653,7 +653,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-3ru-2f-323-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 3루",
     location: "3루측 2층 323 GATE",
@@ -662,7 +662,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-3ru-3f-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 3루",
     location: "3루측 3층",
@@ -671,7 +671,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-1ru-2f-126-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 1루",
     location: "1루측 2층 126 GATE",
@@ -681,7 +681,7 @@ export const foodBooths = [
 
   {
     id: "sajik-outside-1f-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "외부",
     location: "1층 외부 1층외부매장",
@@ -690,7 +690,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-3ru-3f-331-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 3루",
     location: "3루측 3층 331 GATE",
@@ -699,7 +699,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-1ru-2f-123-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 1루",
     location: "1루측 2층 123 GATE",
@@ -708,7 +708,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-center-3f-031-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "중앙",
     location: "중앙 3층 031 GATE",
@@ -718,7 +718,7 @@ export const foodBooths = [
 
   {
     id: "sajik-center-3f-032-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "중앙",
     location: "중앙 3층 032 GATE",
@@ -727,7 +727,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-3ru-2f-326-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 3루",
     location: "3루측 2층 326 GATE",
@@ -736,7 +736,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-3ru-outfield-2f-724-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "외야",
     location: "3루측 외야 2층 724 GATE",
@@ -745,7 +745,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-1ru-outfield-2f-923-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "외야",
     location: "1루측 외야 2층 923 GATE",
@@ -755,7 +755,7 @@ export const foodBooths = [
 
   {
     id: "sajik-center-3f-031-gate-02",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "중앙",
     location: "중앙 3층 031 GATE",
@@ -764,7 +764,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-3ru-3f-331-gate-02",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 3루",
     location: "3루측 3층 331 GATE",
@@ -773,7 +773,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-3ru-3f-331-gate-03",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 3루",
     location: "3루측 3층 331 GATE",
@@ -782,7 +782,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-1ru-3f-131-gate-02",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 1루",
     location: "1루측 3층 131 GATE",
@@ -792,7 +792,7 @@ export const foodBooths = [
 
   {
     id: "sajik-1ru-outfield-2f-924-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "외야",
     location: "1루측 외야 2층 924 GATE",
@@ -801,7 +801,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-1ru-2f-125-gate-02",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 1루",
     location: "1루측 2층 125 GATE",
@@ -810,7 +810,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-center-3f-032-gate-02",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "중앙",
     location: "중앙 3층 032 GATE",
@@ -819,7 +819,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-1ru-2f-125-gate-03",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 1루",
     location: "1루측 2층 125 GATE",
@@ -829,7 +829,7 @@ export const foodBooths = [
 
   {
     id: "sajik-center-3f-031-gate-03",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "중앙",
     location: "중앙 3층 031 GATE",
@@ -838,7 +838,7 @@ export const foodBooths = [
   },
   {
     id: "sajik-1ru-3f-132-gate-01",
-    stadiumId: "sajik",
+    stadiumId: "busan",
     stadiumName: "사직야구장",
     locationCategory: "내부 1루",
     location: "1루측 3층 132 GATE",
@@ -2680,7 +2680,7 @@ export const foodBooths = [
   // 수원 KT위즈파크
   {
     id: "suwon-central-3ru-2f-01",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
@@ -2689,7 +2689,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-3ru-2f-02",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
@@ -2698,7 +2698,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-3ru-2f-03",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
@@ -2707,7 +2707,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-3ru-2f-04",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
@@ -2716,7 +2716,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-3ru-2f-05",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
@@ -2725,7 +2725,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-3ru-2f-06",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
@@ -2734,7 +2734,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-3ru-2f-07",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
@@ -2743,7 +2743,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-3ru-2f-08",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~3루",
     location: "중앙~3루 2층",
@@ -2753,7 +2753,7 @@ export const foodBooths = [
 
   {
     id: "suwon-central-1ru-2f-01",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
@@ -2762,7 +2762,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-1ru-2f-02",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
@@ -2771,7 +2771,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-1ru-2f-03",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
@@ -2780,7 +2780,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-1ru-2f-04",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
@@ -2789,7 +2789,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-1ru-2f-05",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
@@ -2798,7 +2798,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-1ru-2f-06",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
@@ -2807,7 +2807,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-1ru-2f-07",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
@@ -2816,7 +2816,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-1ru-2f-08",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
@@ -2825,7 +2825,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-central-1ru-2f-09",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "중앙~1루",
     location: "중앙~1루 2층",
@@ -2835,7 +2835,7 @@ export const foodBooths = [
 
   {
     id: "suwon-5f-01",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "5층",
     location: "5층",
@@ -2844,7 +2844,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-5f-02",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "5층",
     location: "5층",
@@ -2853,7 +2853,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-3ru-5f-01",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "3루 5층",
     location: "5층",
@@ -2862,7 +2862,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-5f-03",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "5층",
     location: "5층",
@@ -2871,7 +2871,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-5f-04",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "5층",
     location: "5층",
@@ -2880,7 +2880,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-camping-5f-01",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "캠핑장 5층",
     location: "5층",
@@ -2890,7 +2890,7 @@ export const foodBooths = [
 
   {
     id: "suwon-outside-1f-01",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "외부",
     location: "외부 1층",
@@ -2899,7 +2899,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-outside-1f-02",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "외부",
     location: "외부 1층",
@@ -2909,7 +2909,7 @@ export const foodBooths = [
 
   {
     id: "suwon-1ru-2f-01",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "1루",
     location: "1루 2층",
@@ -2918,7 +2918,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-1ru-2f-02",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "1루",
     location: "1루 2층",
@@ -2927,7 +2927,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-1ru-2f-03",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "1루",
     location: "1루 2층",
@@ -2936,7 +2936,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-naeya-1ru-2f-01",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "내야 1루",
     location: "1루 2층",
@@ -2945,7 +2945,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-1ru-2f-04",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "1루",
     location: "1루 2층",
@@ -2954,7 +2954,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-1ru-2f-05",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "1루",
     location: "1루 2층",
@@ -2963,7 +2963,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-1ru-2f-06",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "1루",
     location: "1루 2층",
@@ -2972,7 +2972,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-naeya-1ru-2f-02",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "내야 1루",
     location: "1루 2층",
@@ -2981,7 +2981,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-1ru-2f-07",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "1루",
     location: "1루 2층",
@@ -2990,7 +2990,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-1ru-2f-08",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "1루",
     location: "1루 2층",
@@ -3000,7 +3000,7 @@ export const foodBooths = [
 
   {
     id: "suwon-3ru-2f-01",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "3루",
     location: "3루 2층",
@@ -3009,7 +3009,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-3ru-2f-02",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "3루",
     location: "3루 2층",
@@ -3018,7 +3018,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-naeya-3ru-2f-01",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "내야 3루",
     location: "3루 2층",
@@ -3027,7 +3027,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-3ru-2f-03",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "3루",
     location: "3루 2층",
@@ -3036,7 +3036,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-3ru-2f-04",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "3루",
     location: "3루 2층",
@@ -3045,7 +3045,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-3ru-2f-05",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "3루",
     location: "3루 2층",
@@ -3054,7 +3054,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-3ru-2f-06",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "3루",
     location: "3루 2층",
@@ -3063,7 +3063,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-3ru-2f-07",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "3루",
     location: "3루 2층",
@@ -3072,7 +3072,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-3ru-2f-08",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "3루",
     location: "3루 2층",
@@ -3081,7 +3081,7 @@ export const foodBooths = [
   },
   {
     id: "suwon-3ru-2f-09",
-    stadiumId: "suwon-ktwizpark",
+    stadiumId: "suwon",
     stadiumName: "수원 KT위즈파크",
     locationCategory: "3루",
     location: "3루 2층",
@@ -3092,7 +3092,7 @@ export const foodBooths = [
   // 창원 NC파크
   {
     id: "changwon-3ru-1f-01",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "3루",
     location: "3루 1층",
@@ -3101,7 +3101,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-3ru-1f-02",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "3루",
     location: "3루 1층",
@@ -3110,7 +3110,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-3ru-1f-03",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "3루",
     location: "3루 1층",
@@ -3119,7 +3119,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-3ru-1f-04",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "3루",
     location: "3루 1층",
@@ -3128,7 +3128,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-3ru-1f-05",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "3루",
     location: "3루 1층",
@@ -3137,7 +3137,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-3ru-1f-06",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "3루",
     location: "3루 1층",
@@ -3146,7 +3146,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-3ru-1f-07",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "3루",
     location: "3루 1층",
@@ -3155,7 +3155,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-3ru-1f-08",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "3루",
     location: "3루 1층",
@@ -3164,7 +3164,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-3ru-1f-09",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "3루",
     location: "3루 1층",
@@ -3174,7 +3174,7 @@ export const foodBooths = [
 
   {
     id: "changwon-central-1f-01",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "중앙",
     location: "중앙 1층",
@@ -3183,7 +3183,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-central-1f-02",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "중앙",
     location: "중앙 1층",
@@ -3192,7 +3192,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-central-1f-03",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "중앙",
     location: "중앙 1층",
@@ -3201,7 +3201,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-central-1f-04",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "중앙",
     location: "중앙 1층",
@@ -3211,7 +3211,7 @@ export const foodBooths = [
 
   {
     id: "changwon-2f-01",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "2층",
     location: "2층",
@@ -3220,7 +3220,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-2f-02",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "2층",
     location: "2층",
@@ -3229,7 +3229,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-2f-03",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "2층",
     location: "2층",
@@ -3238,7 +3238,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-2f-04",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "2층",
     location: "2층",
@@ -3247,7 +3247,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-2f-05",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "2층",
     location: "2층",
@@ -3257,7 +3257,7 @@ export const foodBooths = [
 
   {
     id: "changwon-oeya-01",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "외야",
     location: "외야",
@@ -3266,7 +3266,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-oeya-02",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "외야",
     location: "외야",
@@ -3275,7 +3275,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-oeya-03",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "외야",
     location: "외야",
@@ -3284,7 +3284,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-oeya-04",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "외야",
     location: "외야",
@@ -3293,7 +3293,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-oeya-05",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "외야",
     location: "외야",
@@ -3302,7 +3302,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-oeya-06",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "외야",
     location: "외야",
@@ -3311,7 +3311,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-oeya-07",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "외야",
     location: "외야",
@@ -3321,7 +3321,7 @@ export const foodBooths = [
 
   {
     id: "changwon-1ru-1f-01",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "1루",
     location: "1루 1층",
@@ -3330,7 +3330,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-1ru-1f-02",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "1루",
     location: "1루 1층",
@@ -3339,7 +3339,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-1ru-1f-03",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "1루",
     location: "1루 1층",
@@ -3348,7 +3348,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-1ru-1f-04",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "1루",
     location: "1루 1층",
@@ -3357,7 +3357,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-1ru-1f-05",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "1루",
     location: "1루 1층",
@@ -3366,7 +3366,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-1ru-1f-06",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "1루",
     location: "1루 1층",
@@ -3375,7 +3375,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-1ru-1f-07",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "1루",
     location: "1루 1층",
@@ -3384,7 +3384,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-1ru-1f-08",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "1루",
     location: "1루 1층",
@@ -3393,7 +3393,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-1ru-1f-09",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "1루",
     location: "1루 1층",
@@ -3402,7 +3402,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-1ru-1f-10",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "1루",
     location: "1루 1층",
@@ -3411,7 +3411,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-1ru-1f-11",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "1루",
     location: "1루 1층",
@@ -3420,7 +3420,7 @@ export const foodBooths = [
   },
   {
     id: "changwon-1ru-1f-12",
-    stadiumId: "changwon-ncpark",
+    stadiumId: "changwon",
     stadiumName: "창원 NC파크",
     locationCategory: "1루",
     location: "1루 1층",
