@@ -1,5 +1,5 @@
 export const foodBooths = [
-  // [잠실]  [잠실] 외부 (외야 ~ 3루)
+  // 잠실야구장
   {
     id: "jamsil-outfield-3ru-01",
     stadiumId: "jamsil",
@@ -81,8 +81,6 @@ export const foodBooths = [
     name: "초장집",
     menuCategory: "한식",
   },
-
-  // [잠실]  외부 (외야 ~ 1루)
   {
     id: "jamsil-outfield-1ru-01",
     stadiumId: "jamsil",
@@ -146,8 +144,6 @@ export const foodBooths = [
     name: "GS25 분식",
     menuCategory: "분식",
   },
-
-  // [잠실] 외부 (1루)
   {
     id: "jamsil-1ru-out-01",
     stadiumId: "jamsil",
@@ -193,8 +189,6 @@ export const foodBooths = [
     name: "홈런마트",
     menuCategory: "편의점",
   },
-
-  // [잠실]  내부 3루 2층
   {
     id: "jamsil-3ru-2f-01",
     stadiumId: "jamsil",
@@ -348,8 +342,6 @@ export const foodBooths = [
     name: "BHC치킨",
     menuCategory: "치킨",
   },
-
-  // [잠실]  내부 3루 3층
   {
     id: "jamsil-3ru-3f-01",
     stadiumId: "jamsil",
@@ -386,8 +378,6 @@ export const foodBooths = [
     name: "GS25",
     menuCategory: "편의점",
   },
-
-  // [잠실]  내부 4층
   {
     id: "jamsil-4f-01",
     stadiumId: "jamsil",
@@ -424,8 +414,6 @@ export const foodBooths = [
     name: "샤오마라 304블럭",
     menuCategory: "간식",
   },
-
-  // [잠실]  내부 1루 2층
   {
     id: "jamsil-1ru-2f-01",
     stadiumId: "jamsil",
@@ -541,7 +529,7 @@ export const foodBooths = [
     locationCategory: "내부 1루",
     location: "내부 1루 2층",
     name: "타코잇",
-    menuCategory: "멕시칸",
+    menuCategory: "간식",
   },
   {
     id: "jamsil-1ru-2f-14",
@@ -561,8 +549,6 @@ export const foodBooths = [
     name: "달콤커피",
     menuCategory: "카페",
   },
-
-  // [잠실]  내부 1루 3층
   {
     id: "jamsil-1ru-3f-01",
     stadiumId: "jamsil",
@@ -588,7 +574,7 @@ export const foodBooths = [
     locationCategory: "내부 1루",
     location: "내부 1루 3층",
     name: "스테프핫도그",
-    menuCategory: "핫도그",
+    menuCategory: "간식",
   },
   {
     id: "jamsil-1ru-3f-04",
@@ -599,8 +585,6 @@ export const foodBooths = [
     name: "샤오마라",
     menuCategory: "간식",
   },
-
-  // [잠실]  내부 2.5층
   {
     id: "jamsil-25f-01",
     stadiumId: "jamsil",
@@ -618,5 +602,247 @@ export const foodBooths = [
     location: "내부 2.5층",
     name: "짝태패밀리 도시래",
     menuCategory: "주류",
+  },
+
+  // 부산 사직야구장
+  {
+    id: "sajik-1ru-2f-124-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 1루",
+    location: "1루측 2층 124 GATE",
+    name: "가온밀면",
+    menuCategory: "한식",
+  },
+  {
+    id: "sajik-3ru-2f-324-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 3루",
+    location: "3루측 2층 324 GATE",
+    name: "계란빵클럽",
+    menuCategory: "간식",
+  },
+  {
+    id: "sajik-1ru-2f-125-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 1루",
+    location: "1루측 2층 125 GATE",
+    name: "남도포차 1루측",
+    menuCategory: "한식",
+  },
+  {
+    id: "sajik-center-4f-043-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "중앙",
+    location: "중앙 4층(중앙상단석) 043 GATE",
+    name: "남도포차 중앙상단",
+    menuCategory: "한식",
+  },
+
+  {
+    id: "sajik-1ru-3f-131-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 1루",
+    location: "1루측 3층 131 GATE",
+    name: "다리집 1루측",
+    menuCategory: "분식",
+  },
+  {
+    id: "sajik-3ru-2f-323-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 3루",
+    location: "3루측 2층 323 GATE",
+    name: "다리집 3루측",
+    menuCategory: "분식",
+  },
+  {
+    id: "sajik-3ru-3f-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 3루",
+    location: "3루측 3층",
+    name: "동래라거",
+    menuCategory: "주류",
+  },
+  {
+    id: "sajik-1ru-2f-126-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 1루",
+    location: "1루측 2층 126 GATE",
+    name: "땅땅치킨 1루측",
+    menuCategory: "치킨",
+  },
+
+  {
+    id: "sajik-outside-1f-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "외부",
+    location: "1층 외부 1층외부매장",
+    name: "땅땅치킨 1층외부",
+    menuCategory: "치킨",
+  },
+  {
+    id: "sajik-3ru-3f-331-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 3루",
+    location: "3루측 3층 331 GATE",
+    name: "땅땅치킨 3루측",
+    menuCategory: "치킨",
+  },
+  {
+    id: "sajik-1ru-2f-123-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 1루",
+    location: "1루측 2층 123 GATE",
+    name: "밀락당",
+    menuCategory: "간식",
+  },
+  {
+    id: "sajik-center-3f-031-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "중앙",
+    location: "중앙 3층 031 GATE",
+    name: "박수식당",
+    menuCategory: "한식",
+  },
+
+  {
+    id: "sajik-center-3f-032-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "중앙",
+    location: "중앙 3층 032 GATE",
+    name: "버거샵",
+    menuCategory: "버거",
+  },
+  {
+    id: "sajik-3ru-2f-326-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 3루",
+    location: "3루측 2층 326 GATE",
+    name: "보영만두 1호점",
+    menuCategory: "분식",
+  },
+  {
+    id: "sajik-3ru-outfield-2f-724-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "외야",
+    location: "3루측 외야 2층 724 GATE",
+    name: "보영만두 2호점",
+    menuCategory: "분식",
+  },
+  {
+    id: "sajik-1ru-outfield-2f-923-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "외야",
+    location: "1루측 외야 2층 923 GATE",
+    name: "상하이마라꼬치",
+    menuCategory: "간식",
+  },
+
+  {
+    id: "sajik-center-3f-031-gate-02",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "중앙",
+    location: "중앙 3층 031 GATE",
+    name: "송희진 숯불소세지",
+    menuCategory: "간식",
+  },
+  {
+    id: "sajik-3ru-3f-331-gate-02",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 3루",
+    location: "3루측 3층 331 GATE",
+    name: "스테프핫도그",
+    menuCategory: "간식",
+  },
+  {
+    id: "sajik-3ru-3f-331-gate-03",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 3루",
+    location: "3루측 3층 331 GATE",
+    name: "심바다",
+    menuCategory: "한식",
+  },
+  {
+    id: "sajik-1ru-3f-131-gate-02",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 1루",
+    location: "1루측 3층 131 GATE",
+    name: "정선수제닭강정",
+    menuCategory: "치킨",
+  },
+
+  {
+    id: "sajik-1ru-outfield-2f-924-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "외야",
+    location: "1루측 외야 2층 924 GATE",
+    name: "코카모메",
+    menuCategory: "간식",
+  },
+  {
+    id: "sajik-1ru-2f-125-gate-02",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 1루",
+    location: "1루측 2층 125 GATE",
+    name: "크리스피크림도넛",
+    menuCategory: "간식",
+  },
+  {
+    id: "sajik-center-3f-032-gate-02",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "중앙",
+    location: "중앙 3층 032 GATE",
+    name: "트레저스커피",
+    menuCategory: "카페",
+  },
+  {
+    id: "sajik-1ru-2f-125-gate-03",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 1루",
+    location: "1루측 2층 125 GATE",
+    name: "파파존스",
+    menuCategory: "피자",
+  },
+
+  {
+    id: "sajik-center-3f-031-gate-03",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "중앙",
+    location: "중앙 3층 031 GATE",
+    name: "포도앤베이커스",
+    menuCategory: "간식",
+  },
+  {
+    id: "sajik-1ru-3f-132-gate-01",
+    stadiumId: "sajik",
+    stadiumName: "사직야구장",
+    locationCategory: "내부 1루",
+    location: "1루측 3층 132 GATE",
+    name: "프루토프루타",
+    menuCategory: "간식",
   },
 ];
