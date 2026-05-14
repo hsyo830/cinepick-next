@@ -16,4 +16,5 @@ export type FoodBooth = {
     | "주류"
     | "편의점"
     | "식당";
+  imageUrl?: string;
 };

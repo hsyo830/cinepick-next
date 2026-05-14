@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { FOOD_CATEGORIES } from "@/src/constants/foodCategories";
 import { FoodBooth } from "@/src/types/foodBooth";
 
@@ -12,7 +14,15 @@ type FoodProps = {
 const FoodCard = ({ food }: FoodProps) => {
   return (
     <div className="bg-surface border-border flex h-50 w-35 flex-col overflow-hidden rounded-xl border md:h-85 md:w-75 lg:h-83 lg:w-full lg:items-center">
-      <div className="h-21.5 w-full shrink-0 bg-blue-500 md:h-40">이미지</div>
+      <div className="relative h-21.5 w-full shrink-0 bg-gray-100 md:h-40">
+        <Image
+          src={food.imageUrl || "/image/food-booth/placeholder-image.webp"}
+          alt="음식 부스 이미지"
+          fill
+          sizes="(max-width: 768px) 140px, 300px"
+          className="object-cover"
+        />
+      </div>
       <div className="flex min-w-0 flex-1 flex-col justify-start gap-0.5 px-2 pt-2 md:justify-center md:gap-0 md:px-4 md:pt-0 lg:w-full">
         <div className="border-border border-b pb-2">
           <p className="text-primary truncate text-[11px] font-semibold md:text-sm md:text-[13px] lg:text-[14px]">

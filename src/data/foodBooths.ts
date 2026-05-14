@@ -10,6 +10,7 @@ export const foodBooths: FoodBooth[] = [
     location: "외부 외야~3루",
     name: "BBQ치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bbq-chicken.webp",
   },
   {
     id: "jamsil-outfield-3ru-02",
@@ -253,6 +254,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 3루 2층",
     name: "BBQ치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bbq-chicken.webp",
   },
   {
     id: "jamsil-3ru-2f-08",
@@ -559,6 +561,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 1루 3층",
     name: "BBQ치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bbq-chicken.webp",
   },
   {
     id: "jamsil-1ru-3f-02",
@@ -920,6 +923,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 3루 3층",
     name: "버터우드커피",
     menuCategory: "카페",
+    imageUrl: "/image/food-booth/daegu/butterwood.webp",
   },
   {
     id: "daegu-3ru-3f-05",
@@ -1197,8 +1201,9 @@ export const foodBooths: FoodBooth[] = [
     stadiumName: "대구 삼성라이온즈파크",
     locationCategory: "외부",
     location: "외부 2층",
-    name: "버터우드커피1",
+    name: "버터우드커피",
     menuCategory: "카페",
+    imageUrl: "/image/food-booth/daegu/butterwood.webp",
   },
   {
     id: "daegu-outside-2f-03",
@@ -1224,8 +1229,9 @@ export const foodBooths: FoodBooth[] = [
     stadiumName: "대구 삼성라이온즈파크",
     locationCategory: "외부",
     location: "외부 2층",
-    name: "버터우드커피2",
+    name: "버터우드커피",
     menuCategory: "카페",
+    imageUrl: "/image/food-booth/daegu/butterwood.webp",
   },
   {
     id: "daegu-outside-2f-06",
@@ -1255,6 +1261,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 1루 1층",
     name: "BBQ치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bbq-chicken.webp",
   },
   {
     id: "daejeon-1ru-1f-02",
@@ -1355,6 +1362,7 @@ export const foodBooths: FoodBooth[] = [
     location: "중앙 1층",
     name: "BBQ치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bbq-chicken.webp",
   },
   {
     id: "daejeon-center-1f-02",
@@ -1501,6 +1509,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 1루 2층",
     name: "BBQ치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bbq-chicken.webp",
   },
   {
     id: "daejeon-1ru-2f-02",
