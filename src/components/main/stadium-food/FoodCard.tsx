@@ -25,23 +25,22 @@ const FoodCard = ({ food }: FoodProps) => {
             <h3 className="text-foreground truncate text-sm font-bold md:text-[19px]">
               {food.name}
             </h3>
-            <p className="bg-warning-soft text-warning flex items-center justify-start gap-0.5 rounded-sm pr-1 pl-0.5 text-center font-bold">
+            <p className="bg-warning-soft text-warning flex min-w-14 items-center justify-start gap-0.5 rounded-sm pr-1 pl-0.5 text-center font-bold">
               {Icon && <Icon className="text-warning h-5 w-5" />}
               {food.menuCategory}
             </p>
           </div>
         </div>
-        <div className="text-muted border-border flex items-center gap-2 border-b py-2.5 text-[11px] md:text-[13px]">
+        <div className="text-muted border-border flex items-center gap-1 border-b py-2.5 text-[11px] md:text-[13px]">
           <LocationIcon className="text-muted h-6 w-6 shrink-0" />
-          <p className="w-12 shrink-0 font-bold">위치</p>
+          <p className="w-14 shrink-0 font-bold">위치</p>
           <p className="truncate font-medium">{food.location}</p>
         </div>
-        <div className="text-muted flex items-center gap-2 py-2.5 text-[11px] md:text-[13px]">
+        <div className="text-muted flex items-center gap-1 py-2.5 text-[11px] md:text-[13px]">
           <MenuIcon className="text-primary h-6 w-6 shrink-0" />
-          <p className="text-primary w-12 font-bold">대표메뉴</p>
+          <p className="text-primary w-14 font-bold">대표메뉴</p>
           <p className="font-medium">{food.menuCategory}</p>
         </div>
-        {/*<p className="text-foreground text-sm font-semibold md:text-[15px]">15,000원</p>*/}
       </div>
     </div>
   );
