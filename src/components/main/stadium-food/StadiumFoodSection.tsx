@@ -7,11 +7,16 @@ const StadiumFoodSection = () => {
   return (
     <section className="w-full">
       <SectionHeader />
-      <div className="flex gap-2 lg:gap-5">
+      <div className="flex gap-2 lg:hidden lg:gap-5">
         <FoodCard food={foodBooths[0]} />
         <FoodCard food={foodBooths[70]} />
         <FoodCard food={foodBooths[100]} />
-        {/*<FoodCard food={foodBooths[330]} />*/}
+      </div>
+      <div className="hidden gap-2 lg:flex lg:gap-5">
+        <FoodCard food={foodBooths[0]} />
+        <FoodCard food={foodBooths[70]} />
+        <FoodCard food={foodBooths[100]} />
+        <FoodCard food={foodBooths[330]} />
       </div>
     </section>
   );
