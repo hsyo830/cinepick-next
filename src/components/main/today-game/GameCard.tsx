@@ -28,7 +28,7 @@ const GameCard = ({ game }: GameCardProps) => {
             <Image
               src={KBO_TEAMS[game.awayCode].logo}
               alt={game.awayName}
-              className="h-auto w-23 md:w-21"
+              className="h-auto w-10 md:w-21"
             />
           </div>
         </div>
@@ -41,7 +41,7 @@ const GameCard = ({ game }: GameCardProps) => {
             <Image
               src={KBO_TEAMS[game.homeCode].logo}
               alt={game.homeName}
-              className="h-auto w-23 md:w-21"
+              className="h-auto w-10 md:w-21"
             />
           </div>
         </div>

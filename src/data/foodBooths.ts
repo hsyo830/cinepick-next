@@ -20,6 +20,7 @@ export const foodBooths: FoodBooth[] = [
     location: "외부 외야~3루",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "jamsil-outfield-3ru-03",
@@ -29,6 +30,7 @@ export const foodBooths: FoodBooth[] = [
     location: "외부 외야~3루",
     name: "GS25",
     menuCategory: "편의점",
+    imageUrl: "/image/food-booth/jamsil/gs25.webp",
   },
   {
     id: "jamsil-outfield-3ru-04",
@@ -65,6 +67,7 @@ export const foodBooths: FoodBooth[] = [
     location: "외부 외야~3루",
     name: "명인만두",
     menuCategory: "분식",
+    imageUrl: "/image/food-booth/jamsil/myunginmandu.webp",
   },
   {
     id: "jamsil-outfield-3ru-08",
@@ -74,6 +77,7 @@ export const foodBooths: FoodBooth[] = [
     location: "외부 외야~3루",
     name: "버거리",
     menuCategory: "버거",
+    imageUrl: "/image/food-booth/jamsil/burgerry.webp",
   },
   {
     id: "jamsil-outfield-3ru-09",
@@ -110,6 +114,7 @@ export const foodBooths: FoodBooth[] = [
     location: "외부 외야~1루",
     name: "버거리",
     menuCategory: "버거",
+    imageUrl: "/image/food-booth/jamsil/burgerry.webp",
   },
   {
     id: "jamsil-outfield-1ru-04",
@@ -137,6 +142,7 @@ export const foodBooths: FoodBooth[] = [
     location: "외부 외야~1루",
     name: "GS25",
     menuCategory: "편의점",
+    imageUrl: "/image/food-booth/jamsil/gs25.webp",
   },
   {
     id: "jamsil-outfield-1ru-07",
@@ -209,6 +215,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 3루 2층",
     name: "GS25",
     menuCategory: "편의점",
+    imageUrl: "/image/food-booth/jamsil/gs25.webp",
   },
   {
     id: "jamsil-3ru-2f-03",
@@ -345,6 +352,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 3루 2층",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "jamsil-3ru-3f-01",
@@ -381,6 +389,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 3루 3층",
     name: "GS25",
     menuCategory: "편의점",
+    imageUrl: "/image/food-booth/jamsil/gs25.webp",
   },
   {
     id: "jamsil-4f-01",
@@ -435,6 +444,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 1루 2층",
     name: "버거리",
     menuCategory: "버거",
+    imageUrl: "/image/food-booth/jamsil/burgerry.webp",
   },
   {
     id: "jamsil-1ru-2f-03",
@@ -444,6 +454,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 1루 2층",
     name: "GS25",
     menuCategory: "편의점",
+    imageUrl: "/image/food-booth/jamsil/gs25.webp",
   },
   {
     id: "jamsil-1ru-2f-04",
@@ -471,6 +482,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 1루 2층",
     name: "명인만두",
     menuCategory: "분식",
+    imageUrl: "/image/food-booth/jamsil/myunginmandu.webp",
   },
   {
     id: "jamsil-1ru-2f-07",
@@ -516,6 +528,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 1루 2층",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "jamsil-1ru-2f-12",
@@ -571,6 +584,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 1루 3층",
     name: "GS25",
     menuCategory: "편의점",
+    imageUrl: "/image/food-booth/jamsil/gs25.webp",
   },
   {
     id: "jamsil-1ru-3f-03",
@@ -1269,8 +1283,9 @@ export const foodBooths: FoodBooth[] = [
     stadiumName: "대전 한화생명 볼파크",
     locationCategory: "내부 1루",
     location: "내부 1루 1층",
-    name: "GS25 편의점",
+    name: "GS25",
     menuCategory: "편의점",
+    imageUrl: "/image/food-booth/jamsil/gs25.webp",
   },
   {
     id: "daejeon-1ru-1f-03",
@@ -1379,8 +1394,9 @@ export const foodBooths: FoodBooth[] = [
     stadiumName: "대전 한화생명 볼파크",
     locationCategory: "중앙",
     location: "중앙 1층",
-    name: "GS25 편의점",
+    name: "GS25",
     menuCategory: "편의점",
+    imageUrl: "/image/food-booth/jamsil/gs25.webp",
   },
   {
     id: "daejeon-center-1f-04",
@@ -1443,8 +1459,9 @@ export const foodBooths: FoodBooth[] = [
     stadiumName: "대전 한화생명 볼파크",
     locationCategory: "내부 3루",
     location: "내부 3루 1층",
-    name: "GS25 편의점",
+    name: "GS25",
     menuCategory: "편의점",
+    imageUrl: "/image/food-booth/jamsil/gs25.webp",
   },
   {
     id: "daejeon-3ru-1f-02",
@@ -1535,8 +1552,9 @@ export const foodBooths: FoodBooth[] = [
     stadiumName: "대전 한화생명 볼파크",
     locationCategory: "내부 1루",
     location: "내부 1루 2층",
-    name: "GS25 편의점",
+    name: "GS25",
     menuCategory: "편의점",
+    imageUrl: "/image/food-booth/jamsil/gs25.webp",
   },
   {
     id: "daejeon-1ru-2f-05",
@@ -1646,8 +1664,9 @@ export const foodBooths: FoodBooth[] = [
     stadiumName: "대전 한화생명 볼파크",
     locationCategory: "외부",
     location: "외부",
-    name: "GS25 편의점",
+    name: "GS25",
     menuCategory: "편의점",
+    imageUrl: "/image/food-booth/jamsil/gs25.webp",
   },
   {
     id: "daejeon-outside-02",
@@ -1668,6 +1687,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 1루 3층",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "gwangju-1ru-3f-02",
@@ -1769,6 +1789,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 1루 5층",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "gwangju-1ru-5f-02",
@@ -1788,6 +1809,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 3루 3층",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "gwangju-3ru-3f-02",
@@ -2140,6 +2162,7 @@ export const foodBooths: FoodBooth[] = [
     location: "외야 2층",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "incheon-outfield-2f-02",
@@ -2158,6 +2181,7 @@ export const foodBooths: FoodBooth[] = [
     location: "외야 2층",
     name: "명인만두",
     menuCategory: "분식",
+    imageUrl: "/image/food-booth/jamsil/myunginmandu.webp",
   },
   {
     id: "incheon-outfield-2f-04",
@@ -2231,6 +2255,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 1루 2층",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "incheon-1ru-2f-02",
@@ -2469,6 +2494,7 @@ export const foodBooths: FoodBooth[] = [
     location: "내부 1루 2층",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "gocheok-1ru-2f-02",
@@ -2578,6 +2604,7 @@ export const foodBooths: FoodBooth[] = [
     location: "외야 3~4층",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "gocheok-oeya-3-4f-03",
@@ -2770,6 +2797,7 @@ export const foodBooths: FoodBooth[] = [
     location: "중앙~1루 2층",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "suwon-central-1ru-2f-02",
@@ -3191,6 +3219,7 @@ export const foodBooths: FoodBooth[] = [
     location: "중앙 1층",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "changwon-central-1f-02",
@@ -3228,6 +3257,7 @@ export const foodBooths: FoodBooth[] = [
     location: "2층",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "changwon-2f-02",
@@ -3274,6 +3304,7 @@ export const foodBooths: FoodBooth[] = [
     location: "외야",
     name: "BHC치킨",
     menuCategory: "치킨",
+    imageUrl: "/image/food-booth/jamsil/bhc-chicken.webp",
   },
   {
     id: "changwon-oeya-02",

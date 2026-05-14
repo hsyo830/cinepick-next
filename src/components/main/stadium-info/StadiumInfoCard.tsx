@@ -8,8 +8,16 @@ import SectionCard from "../../common/SectionCard";
 
 const StadiumInfoCard = () => {
   return (
-    <SectionCard className="flex h-39 w-full gap-2 md:h-50 md:gap-5 lg:h-45 lg:gap-2 xl:gap-3">
-      <div className="h-full w-50 rounded-lg bg-blue-500 md:w-95 lg:w-60">이미지</div>
+    <SectionCard className="flex h-39 w-full min-w-0 gap-2 md:h-50 md:gap-5 lg:h-45 lg:gap-2 xl:gap-3">
+      <div className="relative h-full w-28 shrink-0 rounded-lg bg-blue-500 md:w-40 lg:w-36 xl:w-40">
+        <Image
+          src={"/image/food-booth/placeholder-image.webp"}
+          alt="음식 부스 이미지"
+          fill
+          sizes="(max-width: 768px) 140px, 300px"
+          className="object-cover"
+        />
+      </div>
       <div className="flex w-full flex-col justify-between">
         <div className="flex flex-col gap-2">
           <div className="flex items-center gap-1.5 md:gap-3 lg:gap-2">
@@ -41,7 +49,7 @@ const StadiumInfoCard = () => {
           </div>
         </div>
         <div className="flex w-full gap-1 md:gap-2">
-          <Button className="flex-2">구장 정보 더 보기 &gt;</Button>
+          <Button className="flex-2 truncate">구장 정보 더 보기 &gt;</Button>
           <Button className="flex-1 xl:px-3.5" variant="inline">
             길찾기 &gt;
           </Button>
