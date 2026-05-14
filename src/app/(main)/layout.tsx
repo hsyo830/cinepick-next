@@ -5,11 +5,11 @@ import SideNav from "@/src/components/layout/SideNav";
 
 export default function MainLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen overflow-x-hidden">
       <SideNav />
-      <main className="relative flex min-h-screen w-full flex-col pb-17.25 lg:ml-64 lg:pb-0">
+      <main className="relative flex min-h-screen min-w-0 flex-1 flex-col pb-17.25 lg:ml-64 lg:pb-0">
         <Header />
-        <div className="flex-1">{children}</div>
+        <div className="min-w-0 flex-1 overflow-x-hidden">{children}</div>
         <Footer />
       </main>
       <BottomNav />
