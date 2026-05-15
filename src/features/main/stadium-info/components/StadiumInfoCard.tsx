@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import DoosanLogo from "@/public/image/team-logo/doosan-logo.svg";
-import LgLogo from "@/public/image/team-logo/lg-logo.svg";
 import { Stadium } from "@/src/types/stadium";
 
 import Button from "../../../../components/common/Button";

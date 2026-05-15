@@ -3,7 +3,7 @@ import { getStadiums } from "@/src/services/stadium/getStadiums";
 import StadiumInfoCard from "./components/StadiumInfoCard";
 import SectionHeader from "./SectionHeader";
 
-const StadiumInfoSection = async () => {
+const StadiumsInfoSection = async () => {
   const stadiumInfoData = await getStadiums();
 
   return (
@@ -20,4 +20,4 @@ const StadiumInfoSection = async () => {
   );
 };
 
-export default StadiumInfoSection;
+export default StadiumsInfoSection;

@@ -2,7 +2,7 @@ import PageHero from "@/src/components/common/PageHero";
 import SectionCard from "@/src/components/common/SectionCard";
 import ChecklistSection from "@/src/features/main/checklist/ChecklistSection";
 import StadiumFoodSection from "@/src/features/main/stadium-food/StadiumFoodSection";
-import StadiumInfoSection from "@/src/features/main/stadium-info/StadiumInfoSection";
+import StadiumInfoSection from "@/src/features/main/stadium-info/StadiumsInfoSection";
 import TodayGameSection from "@/src/features/main/today-game/TodayGameSection";
 
 export default function MainPage() {
