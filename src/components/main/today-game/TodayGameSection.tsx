@@ -8,7 +8,7 @@ const TodayGameSection = async () => {
 
   return (
     <section className="w-full min-w-0 overflow-hidden">
-      <SectionHeader />
+      <SectionHeader games={todayGameData.gameList} />
       <TodayGameSlider games={todayGameData.gameList} />
     </section>
   );
