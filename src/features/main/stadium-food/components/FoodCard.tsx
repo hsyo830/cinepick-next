@@ -3,8 +3,8 @@ import Image from "next/image";
 import { FOOD_CATEGORIES } from "@/src/constants/foodCategories";
 import { FoodBooth } from "@/src/types/foodBooth";
 
-import LocationIcon from "../../icons/foodBooth/card/LocationIcon";
-import MenuIcon from "../../icons/foodBooth/card/MenuIcon";
+import LocationIcon from "../../../../components/icons/foodBooth/card/LocationIcon";
+import MenuIcon from "../../../../components/icons/foodBooth/card/MenuIcon";
 import FoodCategoryBadge from "./FoodCategoryBadge";
 
 type FoodProps = {

@@ -1,8 +1,8 @@
 import { checklistItems } from "@/src/constants/checklistItems";
 
-import Button from "../../common/Button";
-import GameStatusCheckIcon from "../../icons/GameStatusCheckIcon";
-import ChecklistBadge from "./ChecklistBadge";
+import Button from "../../../components/common/Button";
+import GameStatusCheckIcon from "../../../components/icons/GameStatusCheckIcon";
+import ChecklistBadge from "./components/ChecklistBadge";
 import SectionHeader from "./SectionHeader";
 
 const ChecklistSection = () => {

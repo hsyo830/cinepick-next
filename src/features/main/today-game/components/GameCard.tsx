@@ -4,8 +4,8 @@ import { KBO_TEAMS } from "@/src/constants/kboTeams";
 import { KBO_WEATHER } from "@/src/constants/kboWeather";
 import { KboGame } from "@/src/types/todayGames";
 
-import GameStatusBadge from "../../common/GameStatusBadge";
-import SectionCard from "../../common/SectionCard";
+import GameStatusBadge from "../../../../components/common/GameStatusBadge";
+import SectionCard from "../../../../components/common/SectionCard";
 
 type GameCardProps = {
   game: KboGame;

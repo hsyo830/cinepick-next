@@ -5,8 +5,8 @@ import DoosanLogo from "@/public/image/team-logo/doosan-logo.svg";
 import LgLogo from "@/public/image/team-logo/lg-logo.svg";
 import { Stadium } from "@/src/types/stadium";
 
-import Button from "../../common/Button";
-import SectionCard from "../../common/SectionCard";
+import Button from "../../../../components/common/Button";
+import SectionCard from "../../../../components/common/SectionCard";
 
 type StadiumInfoCardProps = {
   stadium: Stadium[];

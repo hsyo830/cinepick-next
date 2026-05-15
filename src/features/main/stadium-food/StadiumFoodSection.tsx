@@ -1,6 +1,6 @@
 import { foodBooths } from "@/src/data/foodBooths";
 
-import FoodCard from "./FoodCard";
+import FoodCard from "./components/FoodCard";
 import SectionHeader from "./SectionHeader";
 
 const StadiumFoodSection = () => {

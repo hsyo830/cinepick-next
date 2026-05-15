@@ -1,7 +1,7 @@
 import { getTodayGames } from "@/src/services/kbo/getTodayGames";
 
+import TodayGameSlider from "./components/TodayGameSlider";
 import SectionHeader from "./SectionHeader";
-import TodayGameSlider from "./TodayGameSlider";
 
 const TodayGameSection = async () => {
   const todayGameData = await getTodayGames();

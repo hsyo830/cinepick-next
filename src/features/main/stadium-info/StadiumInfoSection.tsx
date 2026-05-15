@@ -1,7 +1,7 @@
 import { getStadiums } from "@/src/services/stadium/getStadiums";
 
+import StadiumInfoCard from "./components/StadiumInfoCard";
 import SectionHeader from "./SectionHeader";
-import StadiumInfoCard from "./StadiumInfoCard";
 
 const StadiumInfoSection = async () => {
   const stadiumInfoData = await getStadiums();

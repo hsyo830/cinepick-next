@@ -1,9 +1,9 @@
 import PageHero from "@/src/components/common/PageHero";
 import SectionCard from "@/src/components/common/SectionCard";
-import ChecklistSection from "@/src/components/main/checklist/ChecklistSection";
-import StadiumFoodSection from "@/src/components/main/stadium-food/StadiumFoodSection";
-import StadiumInfoSection from "@/src/components/main/stadium-info/StadiumInfoSection";
-import TodayGameSection from "@/src/components/main/today-game/TodayGameSection";
+import ChecklistSection from "@/src/features/main/checklist/ChecklistSection";
+import StadiumFoodSection from "@/src/features/main/stadium-food/StadiumFoodSection";
+import StadiumInfoSection from "@/src/features/main/stadium-info/StadiumInfoSection";
+import TodayGameSection from "@/src/features/main/today-game/TodayGameSection";
 
 export default function MainPage() {
   return (
