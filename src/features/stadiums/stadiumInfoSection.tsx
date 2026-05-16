@@ -1,10 +1,8 @@
 import Image from "next/image";
 
-import SectionCard from "@/src/components/common/SectionCard";
-
-const StadiumInfoSection = () => {
+const StadiumInfoCard = () => {
   return (
-    <SectionCard>
+    <section>
       <div className="relative h-30 w-30">
         <Image
           src={"/image/food-booth/placeholder-image.webp"}
@@ -14,8 +12,8 @@ const StadiumInfoSection = () => {
           className="object-cover"
         />
       </div>
-    </SectionCard>
+    </section>
   );
 };
 
-export default StadiumInfoSection;
+export default StadiumInfoCard;

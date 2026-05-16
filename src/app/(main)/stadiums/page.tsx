@@ -1,5 +1,6 @@
 import PageHero from "@/src/components/common/PageHero";
-import StadiumInfoSection from "@/src/features/stadiums/stadiumInfoSection";
+import SectionCard from "@/src/components/common/SectionCard";
+import StadiumInfoCard from "@/src/features/stadiums/stadiumInfoSection";
 
 const StadiumsPage = () => {
   return (
@@ -8,7 +9,11 @@ const StadiumsPage = () => {
         title="구장 정보"
         intro="전국 야구장의 주요 정보와 편의시설, 교통, 주변 정보를 확인해보세요!"
       />
-      <StadiumInfoSection></StadiumInfoSection>
+      <div className="-mt-5 flex flex-col gap-5 md:-mt-3 md:px-8.25 lg:-mt-10 xl:-mt-15">
+        <SectionCard>
+          <StadiumInfoCard />
+        </SectionCard>
+      </div>
     </div>
   );
 };
